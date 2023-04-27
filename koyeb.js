@@ -7,9 +7,9 @@ RUN sudo dnf -y update &&\
 
 RUN git clone https://github.com/GataNina-Li/GataBot-MD
 
-WORKDIR /root/GataBot-MD
+WORKDIR /root/norn bot
 
-COPY ./root/GataBot-MD
+COPY ./root/norn bot
 
 RUN yarn install
 
